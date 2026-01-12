@@ -1,0 +1,58 @@
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantuan - WeatherApp</title>
+    <style>
+      body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); padding: 20px; color: #333; } .container { max-width: 900px; margin: 20px auto; } h1 { text-align:
+      center; color: #2575fc; margin-bottom: 30px; } .faq-item { background: #ffffff; border-left: 5px solid #2575fc; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: transform
+      0.3s, box-shadow 0.3s; position: relative; } .faq-item:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); } .faq-item h3 { display: flex; align-items: center; gap: 10px; color: #1565c0; } .faq-item h3::before
+      { content: "❓"; font-size: 1.2rem; } .faq-item p, .faq-item ul { margin-top: 10px; } .faq-item ul li { margin-left: 20px; list-style-type: disc; } .api-image { text-align: center; margin-top: 15px; } .api-image img { max-width: 100%;
+      border-radius: 10px; border: 2px solid #2575fc; } .image-caption { font-size: 0.9rem; color: #555; margin-top: 5px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Frequently Asked Questions (FAQ)</h1>
+
+      <div class="faq-item">
+        <h3>a. Halaman ini digunakan untuk apa?</h3>
+        <p><strong>Jawaban:</strong> Aplikasi ini digunakan untuk mengecek informasi cuaca terkini dari berbagai kota di seluruh dunia dan mendapatkan update berita terbaru dari sumber terpercaya melalui integrasi API.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>b. Apa itu API?</h3>
+        <p><strong>Jawaban:</strong>
+          API (Application Programming Interface) adalah antarmuka yang memungkinkan aplikasi untuk berkomunikasi dan bertukar data dengan aplikasi lain. API berfungsi sebagai perantara yang menghubungkan berbagai sistem software.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>c. API apa yang digunakan dalam aplikasi ini?</h3>
+        <p><strong>Jawaban:</strong> Aplikasi ini menggunakan dua API utama:</p>
+        <ul>
+          <li><strong>OpenWeatherMap API:</strong> Untuk mendapatkan data cuaca terkini</li>
+          <li><strong>MediaStack API:</strong> Untuk mengambil berita terbaru dari berbagai sumber</li>
+        </ul>
+      </div>
+
+      <div class="faq-item">
+        <h3>d. Salah satu pola arsitektur API adalah RESTful</h3>
+        <p><strong>Jawaban:</strong>
+          RESTful (Representational State Transfer) adalah arsitektur API yang menggunakan protokol HTTP untuk komunikasi dan mengikuti prinsip-prinsip stateless, client-server, cacheable, dan uniform interface.</p>
+
+        <div class="api-image">
+          <img src="img/cuaca.png" alt="Arsitektur RESTful API" />
+          <p class="image-caption">Gambar: Diagram Arsitektur RESTful API</p>
+        </div>
+
+        <p><strong>Karakteristik RESTful API:</strong></p>
+        <ul>
+          <li>Menggunakan HTTP methods (GET, POST, PUT, DELETE)</li>
+          <li>Stateless - tidak menyimpan state client</li>
+          <li>Resource-based endpoint</li>
+          <li>Mengembalikan data dalam format JSON/XML</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

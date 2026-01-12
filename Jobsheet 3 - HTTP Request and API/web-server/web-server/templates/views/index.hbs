@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>🌤️ <span>Aplikasi Cek Cuaca</span></h1>
+
+  <div class="menu">
+    <button onclick="window.location.href='/'">Beranda</button>
+    <button onclick="window.location.href='/bantuan'">Bantuan</button>
+    <button onclick="window.location.href='/tentang'">Tentang</button>
+    <button onclick="window.location.href='/berita'">Berita</button>
+  </div>
+
+  <p>Gunakan website ini untuk menemukan informasi cuaca!</p>
+
+  <div class="search">
+    <input type="text" id="lokasi" placeholder="Masukkan lokasi" />
+    <button class="cari" onclick="cariCuaca()">Cari Lokasi</button>
+  </div>
+</div>
+
+<script>
+  const cariCuaca = () => { const lokasi = document.getElementById("lokasi").value; if (lokasi.trim() === "") { alert("Masukkan nama lokasi terlebih dahulu!"); return; } window.location.href = `/cuaca?lokasi=${lokasi}`; };
+</script>

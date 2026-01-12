@@ -1,0 +1,17 @@
+{
+  "name": "jobsheet-9---socket-programming",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"https://img.shields.io/badge/Socket%20Programming-Real--Time-brightgreen?logo=socket.io&logoColor=white\" />   <img src=\"https://img.shields.io/badge/Praktikum-Pemrograman%20Jaringan-blue\" /> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}

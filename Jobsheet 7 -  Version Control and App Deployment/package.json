@@ -1,0 +1,16 @@
+{
+  "name": "jobsheet-7---version-control-and-app-deployment",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"https://img.shields.io/badge/MongoDB-Database%20Server-brightgreen?logo=mongodb&logoColor=white\" />   <img src=\"https://img.shields.io/badge/Praktikum-Pemrograman%20Jaringan-blue\" /> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongodb": "^7.0.0"
+  }
+}
