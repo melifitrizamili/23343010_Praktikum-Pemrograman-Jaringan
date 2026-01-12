@@ -12,7 +12,7 @@ Repository ini berisi kumpulan **source code** dan **dokumentasi** hasil pengerj
 ---
 
 ## 👤 Identitas Mahasiswa
-- **Nama**            : Meli Fitri Zamamili  
+- **Nama**            : Meli Fitri Zamili
 - **NIM**             : 23343010  
 - **Program Studi**   : Informatika  
 - **Fakultas**        : Teknik  
